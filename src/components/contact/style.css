@@ -1,0 +1,16 @@
+.contactBg {
+  background-color: rgb(4, 41, 58);
+}
+
+.contactBg .contactText {
+  color: #fff;
+}
+
+.contactText a:hover .landingIcon {
+  fill: #24a19c;
+}
+
+.contactText .landingIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}

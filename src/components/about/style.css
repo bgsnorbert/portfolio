@@ -1,0 +1,68 @@
+.aboutSectionBg {
+  background-color: #f4f4f7;
+}
+.aboutSection img {
+  border-radius: 0.25rem;
+  /* -webkit-box-shadow: 8px 8px 2px 0px rgba(219, 219, 219, 0.8);
+  -moz-box-shadow: 8px 8px 2px 0px rgba(219, 219, 219, 0.8);
+  box-shadow: 8px 8px 2px 0px rgba(219, 219, 219, 0.8); */
+}
+
+.aboutSection .aboutMe {
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  /* margin: 0 1rem; */
+}
+
+.greyText {
+  color: #8b8b8b;
+}
+
+.line {
+  margin-top: -5px;
+  max-width: 250px;
+  height: 2px;
+  margin-bottom: 0.8rem;
+  background-image: linear-gradient(
+    90deg,
+    rgb(41 74 241),
+    rgb(183 42 255),
+    rgb(240 23 23)
+  );
+}
+
+.cube1,
+.cube2 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.25rem;
+}
+
+.cube1 {
+  background-color: rgba(42, 223, 255, 0.9);
+}
+
+.cube2 {
+  background-color: rgba(61, 40, 255, 0.9);
+}
+
+.cube2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.subTItle {
+  font-weight: 500;
+  margin-top: -0.6rem;
+  margin-bottom: 0.8rem;
+  color: #8b8b8b;
+}
+
+.skillsContainer .skillsIcons {
+  display: block;
+  margin: auto;
+  width: 2rem;
+  height: 2rem;
+}
