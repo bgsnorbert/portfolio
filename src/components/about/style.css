@@ -55,9 +55,8 @@
 
 .subTItle {
   font-weight: 500;
-  margin-top: -0.6rem;
-  margin-bottom: 0.8rem;
   color: #8b8b8b;
+  margin-bottom: 0.3rem;
 }
 
 .skillsContainer .skillsIcons {
@@ -65,4 +64,12 @@
   margin: auto;
   width: 2rem;
   height: 2rem;
+}
+
+.mongooseText {
+  color: #800;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -1px;
 }

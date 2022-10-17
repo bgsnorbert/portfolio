@@ -18,34 +18,7 @@ const Landing = () => {
             enable: false,
           },
           fpsLimit: 60,
-          interactivity: {
-            events: {
-              onClick: {
-                enable: true,
-                mode: "push",
-              },
-              onHover: {
-                enable: true,
-                mode: "repulse",
-              },
-              resize: true,
-            },
-            modes: {
-              bubble: {
-                distance: 600,
-                duration: 2,
-                opacity: 0.5,
-                size: 60,
-              },
-              push: {
-                quantity: 1,
-              },
-              repulse: {
-                distance: 120,
-                duration: 0.6,
-              },
-            },
-          },
+
           particles: {
             color: {
               value: "#ffffff",
@@ -67,19 +40,18 @@ const Landing = () => {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 60,
             },
             opacity: {
-              // value: 0.4,
               animation: {
                 enable: true,
-                minimumValue: 0.4,
+                minimumValue: 0.6,
                 speed: 1,
                 sync: false,
               },
               random: {
                 enable: true,
-                minimumValue: 0.4,
+                minimumValue: 0.6,
               },
             },
             shape: {

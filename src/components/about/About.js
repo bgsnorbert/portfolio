@@ -11,7 +11,9 @@ import {
   FaReact,
   FaGithub,
   FaGitAlt,
+  FaNode,
 } from "react-icons/fa";
+import { SiRedux, SiMongodb, SiExpress } from "react-icons/si";
 
 const About = () => {
   return (
@@ -42,10 +44,9 @@ const About = () => {
             <hr />
 
             <h3>Skills</h3>
-            <div className="subTItle">Front-End</div>
+            <div className="subTItle mt-3">Front-End</div>
             <div className="skillsContainer">
               <div className=" me-2 d-inline-block">
-                {" "}
                 <FaHtml5 className="skillsIcons htmlIcon" />
                 HTML
               </div>
@@ -73,12 +74,38 @@ const About = () => {
                 <FaGithub className="skillsIcons githubIcon" />
                 Github
               </div>
+              <div className=" me-2 d-inline-block">
+                <SiRedux className="skillsIcons reduxIcon" />
+                Redux
+              </div>
               <div className=" d-inline-block">
                 <FaReact className="skillsIcons reactIcon" />
                 React
               </div>
             </div>
 
+            <div className="subTItle mt-3">Back-End</div>
+            <div className="skillsContainer">
+              <div className=" me-2 d-inline-block">
+                <FaNode className="skillsIcons nodeIcon" />
+                NodeJs
+              </div>
+              <div className=" me-2 d-inline-block">
+                <SiExpress className="skillsIcons expressIcon" />
+                ExpressJs
+              </div>
+              <div className=" me-2 d-inline-block">
+                <SiMongodb className="skillsIcons mongoIcon" />
+                MongoDB
+              </div>
+              <div className=" me-2 d-inline-block">
+                <span className="mongooseText">mongoose</span>
+                Mongoose
+              </div>
+            </div>
+            <hr />
+            <div className=" me-2 d-inline-block">JSON,</div>
+            <div className=" me-2 d-inline-block">REST API</div>
             {/* <Button>Portfolio</Button> */}
           </Col>
         </Row>

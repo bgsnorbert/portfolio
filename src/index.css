@@ -40,6 +40,18 @@ code {
   fill: #1c2024;
 }
 
+.reduxIcon {
+  fill: #764abc;
+}
+
 .reactIcon {
   fill: #64daf5;
+}
+
+.nodeIcon {
+  fill: #3e863d;
+}
+
+.mongoIcon {
+  fill: #46a147;
 }
